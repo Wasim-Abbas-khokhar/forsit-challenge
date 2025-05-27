@@ -4,15 +4,13 @@ This project provides a backend API for managing products, sales, inventory, and
 
 ## Setup Instructions
 
-### 1. Clone the Repository
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Setup Environment Variables
+### 2. Setup Environment Variables
 
 Create a `.env` file in the root directory and add the following:
 
@@ -24,7 +22,7 @@ DB_PASSWORD=your_password
 DB_NAME=ecommerce
 ```
 
-### 4. Run the Seed Script (optional)
+### 3. Run the Seed Script (optional)
 
 To populate the database with demo data:
 
@@ -32,7 +30,7 @@ To populate the database with demo data:
 npm run seed
 ```
 
-### 5. Start the Server
+### 4. Start the Server
 
 ```bash
 npm start
@@ -40,7 +38,7 @@ npm start
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 * **Programming Language:** JavaScript
 * **Framework:** Node.js with Express.js
